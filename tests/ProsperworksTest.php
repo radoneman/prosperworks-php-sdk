@@ -11,8 +11,8 @@ class ProsperworksTest extends \PHPUnit_Framework_TestCase
 	public function setUp()
 	{
 		$config = array(
-			'access_token' => 'ee790c02a03d7eb9bf2681505f57a238',
-			'user_email' => 'danraz@u-zine.com',
+			'access_token' => '', // place your Prosperworks access_token
+			'user_email' => '', // your Prosperworks email address
 			// 'client_http' => 'guzzle' // if you want to use guzzle 5.0
 		);
 
