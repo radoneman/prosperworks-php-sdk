@@ -15,7 +15,6 @@ With [Composer](https://getcomposer.org/). Add the Prosperworks PHP SDK package 
         "prosperworks/php-sdk-v1": "~1.0"
     }
 }
-}
 ```
 
 
