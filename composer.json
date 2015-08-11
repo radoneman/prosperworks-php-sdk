@@ -4,7 +4,7 @@
     "keywords": ["prosperworks", "api", "sdk"],
     "type": "library",
     "homepage": "https://github.com/radoneman/prosperworks-php-sdk",
-    "license": "proprietary",
+    "license": "GPL-2.0",
     "authors": [
         {
             "name": "radoneman",
