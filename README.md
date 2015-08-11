@@ -33,13 +33,15 @@ $config = array(
 );
 
 $app = new Prosperworks($config);
-$result = $this->app->post('companies/search');
+$result = $app->post('companies/search');
 print_r($result);
+```
 
 
 ## Tests
 
-1. [Composer](https://getcomposer.org/) is a prerequisite for running the tests. Install composer globally, then run `composer install` to install required files.
+1. [Composer](https://getcomposer.org/) is a prerequisite for running the tests. 
+Install composer globally, then run `composer install` to install required files.
 2. Get API credentials from Prosperworks and update the $config array.
 3. The tests can be executed by running this command from the root directory:
 
