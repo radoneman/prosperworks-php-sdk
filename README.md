@@ -1,2 +1,5 @@
-# prosperworks-php-sdk
-Connect to Prosperworks API and integrate with your PHP app.
+# Prosperworks PHP SDK
+
+
+
+A PHP client (fancy named SDK) to access Prosperworks API.
