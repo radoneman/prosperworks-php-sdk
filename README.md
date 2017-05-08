@@ -5,6 +5,8 @@ A PHP client (fancy named SDK) to access Prosperworks API.
 Default HTTP library is CURL but it works with Guzzle too. 
 
 
+*Note: this is not an official Prosperworks package; all product names, logos, and brands are property of their respective owners.*
+
 ## Installation
 
 With [Composer](https://getcomposer.org/). Add the Prosperworks PHP SDK package to your `composer.json` file.
