@@ -144,6 +144,30 @@ class Prosperworks
 		return $this->last_response;
 	}
 
+    /**
+     *
+     * @param string $cmd
+     * @param array $params
+     * @return array
+     */
+    public function put($cmd, array $params = [])
+    {
+        $this->last_response = $this->client->put($cmd, $params);
+        return $this->last_response;
+    }
+
+    /**
+     *
+     * @param string $cmd
+     * @param array $params
+     * @return array
+     */
+    public function delete($cmd, array $params = [])
+    {
+        $this->last_response = $this->client->delete($cmd, $params);
+        return $this->last_response;
+    }
+
 	/**
 	 *
 	 * @return array
