@@ -27,7 +27,7 @@ class Prosperworks
 	 *
 	 * @var string
 	 */
-	const API_URL = 'https://api.prosperworks.com/developer_api/v1/';
+	const API_URL = 'https://api.copper.com/developer_api/v1/';
 
 	/**
 	 *
